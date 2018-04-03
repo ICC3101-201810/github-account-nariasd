@@ -11,12 +11,14 @@ namespace ConsoleApp1
         string nombreSucursal;
         string calle;
         int numeroCalle;
+        List<Registro> reg;
 
-        public Sucursal(string nSucursal, string nombreCalle, int numero)
+        public Sucursal(string nSucursal, string nombreCalle, int numero, List<Registro> registro)
         {
             nombreSucursal = nSucursal;
             calle = nombreCalle;
             numeroCalle = numero;
+            reg = registro;
         }
 
     }
